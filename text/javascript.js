@@ -18,7 +18,7 @@ function calculateSum(arr) {
 			return "At least one element of the array is a string.";
 			console.log("string");
 		} else if (typeof arr[i] === "undefined") {
-			return "Undefined value!";
+			return "At least one element in the array is an undefined value!";
 		} else if (typeof arr[i] != "number") {
 			return "An element of the array is not a number.";
 			console.log("string");
